@@ -61,7 +61,6 @@ O BestShopping V2 vai além:
 | Infrastructure | Repositórios, Providers, EF Core |
 | BackgroundServices | Consumers RabbitMQ, Hosted Services |
 
-
 ---
 
 ## ✅ Status do Projeto
@@ -107,11 +106,38 @@ O BestShopping V2 vai além:
 
 ---
 
+## 🎨 Design System — UI/UX
+
+O BestShopping V2 possui um **Design System completo** desenvolvido no Figma, cobrindo todas as interfaces da plataforma — **32 telas no total**.
+
+### 🛍️ Store (Comprador) — 20 telas
+Catálogo, Detalhe do Produto, Carrinho, Checkout (Endereço + Pagamento), Confirmação de Pedido, Meus Pedidos, Detalhe do Pedido, Rastreamento, Perfil, Favoritos, Notificações, Pontos de Fidelidade, Chat, Convite para Vendedores e mais.
+
+### ⚙️ Painel Seller + Admin — 12 telas
+Dashboard Seller, Gestão de Produtos (listagem + cadastro), Pedidos com detalhe inline, Financeiro com gráfico de comissões e saques, Avaliações, Promoções, Dashboard Admin com métricas em tempo real, Gestão de Usuários, Vendedores, Cupons e Saques.
+
+### Identidade Visual
+
+| Token | Cor | Uso |
+|---|---|---|
+| Navy `#1A1A2E` | Marca / Topbar | Fundo principal da navegação |
+| Indigo `#5B6EF5` | Primária | Botões, links, badges ativos |
+| Vermelho `#E53E3E` | Ação de compra | Carrinho, botão de compra |
+| Âmbar `#F5A623` | Alertas / Estrelas | Avaliações, estoque baixo |
+| Verde `#2ECC71` | Sucesso / Trust | Pagamento aprovado, status OK |
+
+> 🎨 **[Visualizar Design System completo no Figma →](https://www.figma.com/design/67SfyYQtu5HnSbsUFlEKCz/BestShopping-V2-%E2%80%94-Design-System-WEB-?node-id=5-2&t=4t6jtfRc8qapkLfW-1)**
+>
+> Acesso somente leitura — nenhuma alteração permitida.
+
+---
+
 ## 📚 Documentação
 
 - 📋 [Backlog completo com 32 ondas no Notion](https://www.notion.so/Planejamento-BestShopping-V2-e6808fc8333d83dbb8fa0140834772be)
 - 📖 Regras de negócio documentadas em 27 seções
 - 🏗️ Decisões arquiteturais registradas com contexto e solução
+- 🎨 [Design System WEB no Figma](https://www.figma.com/design/67SfyYQtu5HnSbsUFlEKCz/BestShopping-V2-%E2%80%94-Design-System-WEB-?node-id=5-2&t=4t6jtfRc8qapkLfW-1)
 
 ---
 
